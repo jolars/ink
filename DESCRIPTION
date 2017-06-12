@@ -1,15 +1,19 @@
 Package: ink
 Title: Elegant Data Presentations With High Data-Ink Ratios
 Version: 0.0.0.9000
-Authors@R: Johan larsson <johanlarsson@outlook.com> [aut, cre]
+Authors@R: person("Johan", "Larsson", email = "johanlarsson@outlook.com",
+                  role = c("aut", "cre"))
 Description: An advanced graphics system based on the principles of Edward
   Tufte that generates graphics with high data-ink ratios, that is, graphics
   that make effective use of its ink. 
 Depends:
   R (>= 3.4.0),
   methods
-License: GPL-3
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/jolars/ink
 BugReports: https://github.com/jolars/ink/issues
+RoxygenNote: 6.0.1
+Suggests: covr,
+    testthat
